@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T12:50:46.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="ZUo0bYORk8W_bKD4MCuJ" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T12:53:37.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="sVZGh1tbR83QoAQr3_bg" version="13.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2239" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,6 +109,9 @@
         </mxCell>
         <mxCell id="ozNwTm4m7dPNe32pnPe8-22" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;遇到结束标签&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;检测 ancestors&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;合法结束&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="195" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozNwTm4m7dPNe32pnPe8-24" value="关键点：&lt;br&gt;1. &amp;lt;div&amp;gt; 检测进入 parseElement&lt;br&gt;2. parseElement 中调用 parseTag 再调&lt;br&gt;用 parseChildren 递归解析出子节点 element.childrend[]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;rounded=0;fillColor=#ffffff;fontColor=#0000FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="390" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
