@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T07:37:24.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="akAc8ptGRFfJJJmDVc8G" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-13T07:38:00.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="yafeROsIr_EI7wVYxtw7" version="13.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="788" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,10 +80,10 @@
         <mxCell id="QHOWvaZ5lag0vu7V8HhP-28" value="parseTag(context, type, ancestors)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QHOWvaZ5lag0vu7V8HhP-30" value="解析出 div 标签节点" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-30" value="解析出标签属性，props[]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="275" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QHOWvaZ5lag0vu7V8HhP-33" value="解析出 div 标签节点" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-33" value="&lt;span&gt;解析出 div 标签节点&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="350" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QHOWvaZ5lag0vu7V8HhP-39" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
