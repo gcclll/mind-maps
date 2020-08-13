@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T08:44:03.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="940UpR3w6PbndhnaKOlq" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-13T08:51:46.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="lzhpp_6m3axOvN3FPYWm" version="13.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1158" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,6 +313,9 @@
         <mxCell id="QHOWvaZ5lag0vu7V8HhP-113" value="parseTextData(context, length, TextModes.ATTRIBUTE_VALUE)" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1850" y="420" width="200.01" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;endArrow=classic;endFill=1;fontColor=#FF3333;strokeColor=#3333FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QHOWvaZ5lag0vu7V8HhP-117" target="QHOWvaZ5lag0vu7V8HhP-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QHOWvaZ5lag0vu7V8HhP-117" value="context.options.decodeEntities(rawText, ...)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;glass=0;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1820.01" y="520" width="259.99" height="30" as="geometry" />
         </mxCell>
@@ -367,6 +370,28 @@
         </mxCell>
         <mxCell id="QHOWvaZ5lag0vu7V8HhP-137" value="error：属性值包&lt;br&gt;含非法字符" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;strokeColor=#B20000;strokeWidth=1;fillColor=#e51400;glass=0;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1085.63" y="691" width="193.12" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;endArrow=classic;endFill=1;strokeColor=#3333FF;fontColor=#FF3333;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QHOWvaZ5lag0vu7V8HhP-141" target="QHOWvaZ5lag0vu7V8HhP-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2090" y="615" />
+              <mxPoint x="2090" y="240" />
+              <mxPoint x="1162" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-144" value="直接将属性值：&quot;ok&quot; 返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="QHOWvaZ5lag0vu7V8HhP-143">
+          <mxGeometry x="-0.274" y="-1" relative="1" as="geometry">
+            <mxPoint x="78.34" y="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-145" value="value =&amp;nbsp;{content: &quot;ok&quot;, isQuoted: true, loc: {…}}，这个值将作为该属性节点的 exp: value 属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="QHOWvaZ5lag0vu7V8HhP-143">
+          <mxGeometry x="0.8565" y="-2" relative="1" as="geometry">
+            <mxPoint x="259.17" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QHOWvaZ5lag0vu7V8HhP-141" value="属性值中并没有&amp;nbsp;&lt;br&gt;/&amp;amp;(gt|lt|amp|apos|quot);/g" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1870.01" y="585" width="159.99" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
