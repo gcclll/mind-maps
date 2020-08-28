@@ -1,2 +1,1 @@
-# mind-maps
-my mind maps
+# 我的图床
